@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "TTCommons";
+  src: url("../recursos/fonts/TTCommons-Bold.ttf");
+}
+@font-face {
+  font-family: "TTCommonsDemi";
+  src: url("../recursos/fonts/TTCommons-DemiBold.ttf");
+}
+@font-face {
+  font-family: "TTCommonsRegular";
+  src: url("../recursos/fonts/TTCommons-Regular.ttf");
+}
+
+/* MENU */
+a{
+  font-family: "TTCommonsDemi";
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  border-bottom: black 2px solid;
+  color: #414141;
+}
+
+/* MENU */
+
+
+
+/* CONTENIDO */
+
+body{
+  background-color: #64A0C2;
+}
+#logo{
+  width: 150px;
+  margin: 5%;
+}
+.Hola{
+  font-family: "TTCommons";
+  padding-top: 20%;
+  font-size: 80px;
+  color: #ffffff;
+}
+.Daniel{
+  font-family: "TTCommons";
+  font-size: 80px;
+  color: #414141;
+}
+.Info{
+  font-family: "TTCommons";
+  font-size: 30px;
+  color: #ADC2D8;
+  margin-top: 10%;
+}
+.infoBlanco{
+  color: white;
+}
+.infoNegro{
+  color: #414141;
+}
+.Perfil{
+  width:300px;
+  height:300px;
+  border-radius:150px;
+}
+.Img-perfil{
+  margin-top: 20%;
+}
+/* CONTENIDO */
