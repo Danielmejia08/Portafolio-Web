@@ -66,4 +66,16 @@ body{
 .Img-perfil{
   margin-top: 20%;
 }
-/* CONTENIDO */
+/* CONTENIDO *//* CONTENIDO */
+
+/* contactenos*/ 
+.contact{
+  font-family: "TTCommons";
+  padding-top: 90px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.ayudarte{
+  color: #414141 ;
+}
