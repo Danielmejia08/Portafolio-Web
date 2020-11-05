@@ -1,5 +1,12 @@
+$(document).ready(function(){
+    $('#main-menu li a').on('click', function(){
+        $('li a.activo').removeClass('activo');
+        $(this).addClass('activo');
+    });
+});
+
 $('.owl-carousel').owlCarousel({
-    loop:true,
+    loop:false,
     margin:10,
     nav:true,
     responsive:{

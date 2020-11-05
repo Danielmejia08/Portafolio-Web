@@ -21,7 +21,10 @@ a:hover{
   border-bottom: black 2px solid;
   color: #414141;
 }
-
+.activo{
+  border-bottom: black 2px solid;
+  color: #414141;
+}
 /* MENU */
 
 
@@ -67,45 +70,20 @@ body{
   margin-top: 20%;
 }
 /* CONTENIDO */
-/*slider*/
-.jobs{
-  width: 100%;
-  height: 100vh;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-   }
-  .box{
-     width: 350px;
-     height: 610px;
-     background-color: white;
-     border-radius: 10px;
-     box-shadow: 2px 10px  12px; 
-     display:flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: space-between;
-     box-sizing: border-box;
-     margin: 20px 10px;
-}
-
-.model{
-  height: 350px;
-  max-height: 100%;
-  max-width: 100%;
-}
 
 
 
 /* contactenos*/ 
 .contact{
   font-family: "TTCommons";
-  padding-top: 90px;
   text-align: center;
   color: #ffffff;
 }
-
+p.infoIconos{
+  font-family: "TTCommonsDemi";
+  font-size: 15px;
+  color: white;
+}
 .ayudarte{
   color: #414141 ;
 }
@@ -186,6 +164,9 @@ body{
   border-radius: 5px;
   border-style: solid;
 }
+.btnServicios:focus{
+  outline: none;
+}
 .btnSolicitar{
   background-color: #64A0C2;
   color: white;
@@ -222,7 +203,51 @@ body{
       color: white;
       padding: 10%;
     }
-  
+ /* contactenos*/ 
+ 
+ /* CATTRABAJOS */
+ .tituloTrabajos{
+   text-align: center;
+   font-family: "TTCommonsDemi";
+   font-size: 30px;
+   color: white;
+ }
+ .cardTrabajos{
+
+ }
+ .imgcard{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100%;
+  width: 96%;
+ }
+ .TituloCardTrabajos{
+  font-family: "TTCommonsDemi";
+  font-size: 35px;
+  color: #414141;
+ }
+ .DescripcionCard{
+  font-family: "TTCommonsDemi";
+  font-size: 15px;
+  color: #414141;
+ }
+ .butonVerMas{
+  font-family: "TTCommonsDemi";
+  color: #64A0C2;
+   background-color: white;
+   border: 0;
+   text-decoration: none;
+ }
+ .butonVerMas:hover{
+  font-family: "TTCommonsDemi";
+  color: #64A0C2;
+  background-color: white;
+  border: 0;
+  text-decoration: none;
+  border-bottom: #64A0C2 2px solid;
+ }
+  /* CATTRABAJOS */
     
      
       
