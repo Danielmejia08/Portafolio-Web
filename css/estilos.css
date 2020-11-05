@@ -222,6 +222,17 @@ p.infoIconos{
   height: 100%;
   width: 96%;
  }
+
+ .imgcardvertical{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 20%;
+  width: 50%;
+  float: center;
+ }
+
+
  .TituloCardTrabajos{
   font-family: "TTCommonsDemi";
   font-size: 35px;
