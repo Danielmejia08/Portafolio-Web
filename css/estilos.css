@@ -212,9 +212,10 @@ p.infoIconos{
    font-size: 30px;
    color: white;
  }
- .cardTrabajos{
 
  }
+
+
  .imgcard{
   margin-top: 10px;
   margin-left: 10px;
@@ -227,8 +228,8 @@ p.infoIconos{
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  height: 20%;
-  width: 50%;
+  height: 70%;
+  width: 95%;
   float: center;
  }
 
