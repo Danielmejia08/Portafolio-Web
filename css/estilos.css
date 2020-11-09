@@ -256,8 +256,42 @@ p.infoIconos{
   text-decoration: none;
   border-bottom: #64A0C2 2px solid;
  }
+
   /* CATTRABAJOS */
-    
+
+/* DISENIO WEB */
+.textoCard{
+  font-family: "TTCommonsDemi";
+  font-size: 35px;
+  color: #414141;
+}
+.infoCard{
+  font-family: "TTCommonsDemi";
+  font-size: 15px;
+  color: #414141;
+  float: left;
+}
+.cardImagen{
+  height: 10em;
+
+}
+
+.card-deck{
+  margin-left: auto;
+  margin-right: auto;
+}
+.diseño{
+  margin-right: 46px;
+  margin-left: 120px;
+
+}
+
+.block2{
+
+margin-top: 20px;
+}
+
+/* DISENIO WEB */
      
       
           
