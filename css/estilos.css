@@ -302,13 +302,21 @@ margin-top: 20px;
   margin-top: 5px;
 }
 
-.clinic{
-  width: 1px;
-  align-items: center;
 
-
+.medida2{
+width: 289px;
+height: 330px;
+margin-left: 20%;
+margin-top: 5px;
+align-items: center;
 }
 
 
-  
+.medida3{  
+  width: 389px;
+  height: 330px;
+  margin-left: 20%;
+  margin-top: 5px;
+  align-items: center;
+  }
 
