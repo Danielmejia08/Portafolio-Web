@@ -321,7 +321,10 @@ align-items: center;
   }
 
 /*publicidad*/
-
+.promocional{
+height: 275px;
+width: 67px;
+}
 
 
 
