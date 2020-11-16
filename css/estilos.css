@@ -234,6 +234,9 @@ p.infoIconos{
    padding: 10px;
  }
 
+ .prueba{
+   background-color: red;
+ }
 
  .TituloCardTrabajos{
   font-family: "TTCommonsDemi";

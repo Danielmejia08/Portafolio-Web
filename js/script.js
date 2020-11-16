@@ -7,12 +7,14 @@ $(document).ready(function(){
 
 
 $('.sliderTrabajos').owlCarousel({
-    loop:true,
+    loop:false,
     nav:true,
     margin:50,
+    merge:true,
     autoWidth:true,
-    autoplay:true,
-    autoplayTimeout:1000,
+    autoplay:false,
+    autoplayTimeout:5000,
+    autoplayHoverPause:false,
     responsive:{
         0:{
             items:1
@@ -25,6 +27,27 @@ $('.sliderTrabajos').owlCarousel({
         }
     }
 });
+
+$('.trabajosMovil').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:true,
+    autoplay:false,
+    autoplayTimeout:5000,
+    autoplayHoverPause:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+});
+
 
 
 $('.publicidadSlider').owlCarousel({
