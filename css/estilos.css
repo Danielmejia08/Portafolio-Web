@@ -213,7 +213,7 @@ p.infoIconos{
    color: white;
  }
 
-.imgcard{
+/* .imgcard{
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
@@ -228,6 +228,10 @@ p.infoIconos{
   height: 70%;
   width: 95%;
   float: center;
+ } */
+
+ .imgCardTrabajos{
+   padding: 10px;
  }
 
 
