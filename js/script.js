@@ -3,7 +3,9 @@ $(document).ready(function(){
         $('li a.activo').removeClass('activo');
         $(this).addClass('activo');
     });
+    $('.venobox').venobox(); 
 });
+
 
 
 $('.sliderTrabajos').owlCarousel({

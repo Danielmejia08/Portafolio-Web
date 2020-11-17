@@ -18,11 +18,11 @@ a{
   text-decoration: none;
 }
 a:hover{
-  border-bottom: black 2px solid;
+  border-bottom:  #414141 1px solid;
   color: #414141;
 }
 .activo{
-  border-bottom: black 2px solid;
+  border-bottom:  #414141 1px solid;
   color: #414141;
 }
 /* MENU */
@@ -203,6 +203,13 @@ p.infoIconos{
       color: white;
       padding: 10%;
     }
+
+.Redestext{
+  font-family: "TTCommons";
+  font-size: 30px;
+  color: white;
+  margin: 10px;
+}
  /* contactenos*/ 
  
  /* CATTRABAJOS */
@@ -212,27 +219,22 @@ p.infoIconos{
    font-size: 30px;
    color: white;
  }
+ .efectolupa { cursor: pointer; }
 
-/* .imgcard{
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  height: 100%;
-  width: 96%;
+ .efectolupa img:hover {
+     filter: brightness(50%);
+     -webkit-filter: brightness(50%);
  }
-
- .imgcardvertical{
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  height: 70%;
-  width: 95%;
-  float: center;
- } */
+ 
 
  .imgCardTrabajos{
    padding: 10px;
  }
+ .imgCardProductos{
+   height: 300px;
+ }
+
+
 
  .prueba{
    background-color: red;
@@ -331,8 +333,29 @@ align-items: center;
   margin-top: 5px;
   align-items: center;
   }
+/*fyers*/  
 
 /*publicidad*/
+.tituloPublicidad{
+  font-family: "TTCommonsDemi";
+  font-size: 55px;
+  color: white;
+}
+.tituloPublicidadMovil{
+  font-family: "TTCommonsDemi";
+  font-size: 30px;
+  color: white;
+}
+.linea1{
+  background-color: #414141;
+  height: 1em;
+  margin-top: 25px;
+}
+.linea2{
+  background-color: #414141;
+  height: 15px;
+  margin-top: 25px;
+}
 .promocional{
 height: 275px;
 width: 67px;
@@ -340,7 +363,7 @@ width: 67px;
 
 
 
-
+/*publicidad*/
 
 
 /*curriculum*/
@@ -373,11 +396,3 @@ width: 67px;
 }
 
 
-/*redes*/
-.redes{
-margin-left: 2%;
-margin-top: 55px;
-width: 20%;
-color: white;
-
-}
