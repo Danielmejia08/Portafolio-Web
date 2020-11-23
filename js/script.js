@@ -29,17 +29,15 @@ $(document).ready(function(){
                 });
 });
 
-
-
 $('.sliderTrabajos').owlCarousel({
-    loop:false,
+    loop:true,
     nav:true,
     margin:50,
     merge:true,
     autoWidth:true,
-    autoplay:false,
-    autoplayTimeout:5000,
-    autoplayHoverPause:false,
+    autoPlay:true,
+    autoPlayTimeout:1000,
+    autoPlayHoverPause:false,
     responsive:{
         0:{
             items:1
@@ -52,6 +50,9 @@ $('.sliderTrabajos').owlCarousel({
         }
     }
 });
+
+/*Prueba de Caroursel*/
+
 
 $('.trabajosMovil').owlCarousel({
     loop:false,
