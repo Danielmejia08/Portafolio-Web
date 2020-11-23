@@ -399,3 +399,22 @@ width: 67px;
 }
 
 
+
+/* 
+.card-header-title{
+margin-top: -40px;
+color: white;
+font-family: "TTCommonsDemi";
+font-size: 30px;
+background-image: url(../recursos/img/flye-publicidad.jpg);
+} */
+
+
+@media (min-width: 768px) {
+  .carousel-multi-item-2 .col-md-3 {
+  float: left;
+  width: 25%;
+  max-width: 100%; } }
+  
+  .carousel-multi-item-2 .card img {
+  border-radius: 2px; }

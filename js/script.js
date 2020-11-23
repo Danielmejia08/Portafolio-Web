@@ -4,6 +4,29 @@ $(document).ready(function(){
         $(this).addClass('activo');
     });
     $('.venobox').venobox(); 
+    $('.venobox_musica').venobox({
+    framewidth : '25%',                            
+    frameheight: '20%',                         
+    }); 
+    $('.venobox_dental').venobox({
+    framewidth : '900px',                            
+    frameheight: '700px',     
+    });
+
+
+    $('.venobox_negocio').venobox({
+        framewidth : '40%',                            
+        frameheight: '40%',     
+        });
+
+        $('.venobox_naranja').venobox({
+            framewidth : '25%',                            
+            frameheight: '20%',     
+            });
+            $('.venobox_juridico').venobox({
+                framewidth : '25%',                            
+                frameheight: '20%',     
+                });
 });
 
 
@@ -68,3 +91,9 @@ $('.publicidadSlider').owlCarousel({
         }
     }
 });
+
+// MDB Lightbox Init
+$(function () {
+    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+    });
+    
