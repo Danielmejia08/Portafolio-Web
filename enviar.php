@@ -1,11 +1,6 @@
 <?php
-// $destino = "salvadorcartajena@hotmail.com";
-// $email = $_POST["mail"];
-// $numero = $_POST["phone"];
-// $mensaje = $_POST["message"];
-// $contenido = "Nombre: " . $nombre . "\nCorreo: " . $email . "\nNúmero: " . $numero . "\nAsunto: " . $mensaje;
-// @mail($destino, "Contacto", $contenido);
 
+/*
 $name = $_POST['name'];
 $mail = $_POST['mail'];
 $phone = $_POST['phone'];
@@ -28,4 +23,23 @@ $asunto = 'Mensaje de Usuario';
 mail($para, $asunto, utf8_decode($message), $header);
 
 header("Location:index.html");
+*/
+
+if (isset($_POST['enviar'])){
+    if(!empty($_POST['name']) && !empty($_POST['mail']) && !empty($_POST['phone']) && !empty($_POST['message'])){
+        $name = $_POST['name'];
+        $mail = $_POST['mail'];
+        $phone = $_POST['phone'];
+        $message = $_POST['message'];
+        $header  = "From: raudamejia2014@hotmail.com". " \r\n";
+        $header .= "Reply-to: raudamejia2014@hotmail.com". " \r\n";
+        $header.= "X-Mailer: PHP/" . phpversion();
+        mail($mail, $name, $message, $header);
+        if($mail){
+            echo "<h4> Mail enviado con exito </h4>";
+        }
+    }
+}
+
+
 ?>
