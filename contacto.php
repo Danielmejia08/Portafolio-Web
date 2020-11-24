@@ -99,11 +99,14 @@
           <button class="btnServicios">Otros</button>
         </div>
         <div class="col-lg-12 text-center mt-2 mb-3">
-          <button type="submit" class="btnSolicitar">Solicitar</button>
+          <button type="submit" name="enviar" class="btnSolicitar">Solicitar</button>
         </div>
       </div>
     </div>
   </form>
+  <?php
+    include("enviar.php")
+  ?>
 </div>
 
   <div class="container">
