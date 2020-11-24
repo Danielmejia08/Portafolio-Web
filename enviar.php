@@ -31,14 +31,13 @@ if (isset($_POST['enviar'])){
         $mail = $_POST['mail'];
         $phone = $_POST['phone'];
         $message = $_POST['message'];
-        $header = "From: raudamejia2014@hotmail.com". " \r\n";
-        $header.= $mail . " \r\n";
+        $header = $mail . " \r\n";
+        $header .= "From: raudamejia2014@hotmail.com". " \r\n";
         $header.= "X-Mailer: PHP/" . phpversion();
-        mail($mail, $asunto, $message, $header);
+        mail($mail, $name, $message, $header);
         if($mail){
             echo "<h4> Mail enviado con exito </h4>";
         }
-
     }
 }
 
