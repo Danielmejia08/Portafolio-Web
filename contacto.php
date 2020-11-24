@@ -71,7 +71,7 @@
 </div>
 
 <div class="container">
-  <form action="enviar.php" method="post">
+  <form action="correo.php" method="post">
     <div class="container form-contacto mt-4 mb-4 col-lg-6">
       <div class="row">
         <div class="col-lg-12">
@@ -99,7 +99,7 @@
           <button class="btnServicios">Otros</button>
         </div>
         <div class="col-lg-12 text-center mt-2 mb-3">
-          <button type="submit" name="correo" id="correo" class="btnSolicitar">Solicitar</button>
+          <button type="submit" name="enviar" id="enviar" class="btnSolicitar">Solicitar</button>
         </div>
       </div>
     </div>
