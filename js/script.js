@@ -53,45 +53,44 @@ $('.sliderTrabajos').owlCarousel({
 
 /*Prueba de Caroursel*/
 
-
-$('.trabajosMovil').owlCarousel({
-    loop:false,
-    margin:10,
-    nav:true,
-    autoplay:false,
-    autoplayTimeout:5000,
-    autoplayHoverPause:false,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-});
-
+// $('.trabajosMovil').owlCarousel({
+//     loop:false,
+//     margin:10,
+//     nav:true,
+//     autoplay:false,
+//     autoplayTimeout:5000,
+//     autoplayHoverPause:false,
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         600:{
+//             items:3
+//         },
+//         1000:{
+//             items:5
+//         }
+//     }
+// });
 
 
-$('.publicidadSlider').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-});
+
+// $('.publicidadSlider').owlCarousel({
+//     loop:true,
+//     margin:10,
+//     nav:true,
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         600:{
+//             items:3
+//         },
+//         1000:{
+//             items:5
+//         }
+//     }
+// });
 
 // MDB Lightbox Init
 $(function () {

@@ -300,7 +300,6 @@ p.infoIconos{
 }
 .cardImagen{
   height: 10em;
-
 }
 
 .card-deck{
@@ -321,6 +320,19 @@ margin-top: 20px;
 .tienda{
   width: 346px;
   margin-left: 50px;
+}
+
+
+.imgpublicidad{
+  width: 700px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.imgdisenioweb{
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
 }
 
 /* DISENIO WEB */
@@ -353,7 +365,7 @@ align-items: center;
 /*publicidad*/
 .tituloPublicidad{
   font-family: "TTCommonsDemi";
-  font-size: 55px;
+  font-size: 40px;
   color: white;
 }
 .tituloPublicidadMovil{
@@ -371,6 +383,9 @@ align-items: center;
   height: 15px;
   margin-top: 25px;
 }
+/*publicidad*/
+
+
 .promocional{
 height: 275px;
 width: 67px;
@@ -383,8 +398,6 @@ width: 67px;
 }
 
 
-
-/*publicidad*/
 
 
 /*curriculum*/
