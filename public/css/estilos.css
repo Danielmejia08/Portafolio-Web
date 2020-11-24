@@ -1,0 +1,508 @@
+@font-face {
+  font-family: "TTCommons";
+  src: url("../recursos/fonts/TTCommons-Bold.ttf");
+}
+@font-face {
+  font-family: "TTCommonsDemi";
+  src: url("../recursos/fonts/TTCommons-DemiBold.ttf");
+}
+@font-face {
+  font-family: "TTCommonsRegular";
+  src: url("../recursos/fonts/TTCommons-Regular.ttf");
+}
+@media all and (max-width: 1000px){
+  img{
+  width:180px;
+  }
+  }
+  @media all and (max-width: 400px){
+  img{
+  width:100%;
+  }
+  }
+
+/* MENU */
+a{
+  font-family: "TTCommonsDemi";
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  border-bottom:  #414141 1px solid;
+  color: #414141;
+}
+.activo{
+  border-bottom:  #414141 1px solid;
+  color: #414141;
+}
+/* MENU */
+
+
+
+/* CONTENIDO */
+
+body{
+  background-color: #64A0C2;
+}
+#logo{
+  width: 150px;
+  margin: 5%;
+}
+.Hola{
+  font-family: "TTCommons";
+  padding-top: 20%;
+  font-size: 80px;
+  color: #ffffff;
+}
+.Daniel{
+  font-family: "TTCommons";
+  font-size: 80px;
+  color: #414141;
+}
+.Info{
+  font-family: "TTCommons";
+  font-size: 30px;
+  color: #ADC2D8;
+  margin-top: 10%;
+}
+.infoBlanco{
+  color: white;
+}
+.infoNegro{
+  color: #414141;
+}
+.Perfil{
+  width:300px;
+  height:200px;
+  border-radius:300px;
+  max-width: 100px;
+  
+}
+.Img-perfil{
+  margin-top: 20%;
+}
+.circular--square-pc{
+  border-radius: 50%;
+  height: 8%;
+}
+.circular--square-movil{
+  border-radius: 50%;
+  height: 95%;
+}
+/* CONTENIDO */
+
+/* contactenos*/ 
+.contact{
+  font-family: "TTCommons";
+  text-align: center;
+  color: #ffffff;
+}
+p.infoIconos{
+  font-family: "TTCommonsDemi";
+  font-size: 15px;
+  color: white;
+}
+.ayudarte{
+  color: #414141 ;
+}
+.circulo{
+  width: 60%;
+  height: 980px;
+  border-radius: 20px;
+  color: white;
+  margin-left: 21%;
+}
+.circulo2{
+  width: 60%;
+  height: 440px;
+  border-radius: 21px;
+  text-align: center;
+  color: white;
+}
+
+.form-contacto{
+  background-color: white;
+  border-radius: 20px;
+  height: 100%px;
+}
+.TituloForm{
+  font-family: "TTCommons";
+  font-size: 15px;
+  color: #64A0C2;
+  margin: 10px;
+}
+.textoDeForm{
+  font-family: "TTCommonsDemi";
+  font-size: 15px;
+  color: black;
+}
+.inputForm{
+  background-color: #E5E5E5;
+  border-radius: 10px;
+  border: 0;
+  height: 30px;
+  width: 100%;
+  outline: none;
+}
+.inputFormAsunto{
+  background-color: #E5E5E5;
+  border-radius: 10px;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  outline: none;
+}
+.inputForm[type=text]{
+  padding: 10px 10px;
+  font-family: "TTCommonsDemi";
+  color: black;
+  font-size: 12px;
+}
+.inputFormAsunto[type=text]{
+  padding: 10px 10px;
+  font-family: "TTCommonsDemi";
+  color: black;
+  font-size: 12px;
+}
+.btnServicios{
+  background-color: #E5E5E5;
+  color: white;
+  font-family: "TTCommons";
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: white;
+}
+.btnServicios:hover{
+  background-color: white;
+  color: #64A0C2;
+  font-family: "TTCommons";
+  font-size: 20px;
+  border-color: #64A0C2;
+  border-radius: 5px;
+  border-style: solid;
+}
+.btnServicios:focus{
+  outline: none;
+}
+.btnSolicitar{
+  background-color: #64A0C2;
+  color: white;
+  font-family: "TTCommonsDemi";
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  height: 40px;
+  width: 130px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+    }
+
+  .grid-item1{
+
+    margin-left: auto 10px;
+    color:rgb(255, 255, 255) ;
+    padding: 10px;
+    margin: auto;
+     
+    }
+    .row{
+     
+      padding: 15px;
+    
+    }
+    .container2{
+      color: white;
+      padding: 10%;
+    }
+
+.Redestext{
+  font-family: "TTCommons";
+  font-size: 30px;
+  color: white;
+  margin: 10px;
+}
+ /* contactenos*/ 
+ 
+ /* CATTRABAJOS */
+ .tituloTrabajos{
+   text-align: center;
+   font-family: "TTCommonsDemi";
+   font-size: 30px;
+   color: white;
+ }
+ .efectolupa { cursor: pointer; }
+
+ .efectolupa img:hover {
+     filter: brightness(50%);
+     -webkit-filter: brightness(50%);
+ }
+ 
+
+ .imgCardTrabajos{
+   padding: 10px;
+ }
+ .imgCardProductos{
+   height: 300px;
+ }
+
+
+
+ .prueba{
+   background-color: red;
+ }
+
+ .TituloCardTrabajos{
+  font-family: "TTCommonsDemi";
+  font-size: 35px;
+  color: #414141;
+ }
+ .DescripcionCard{
+  font-family: "TTCommonsDemi";
+  font-size: 15px;
+  color: #414141;
+ }
+ .butonVerMas{
+  font-family: "TTCommonsDemi";
+  color: #64A0C2;
+   background-color: white;
+   border: 0;
+   text-decoration: none;
+ }
+ .butonVerMas:hover{
+  font-family: "TTCommonsDemi";
+  color: #64A0C2;
+  background-color: white;
+  border: 0;
+  text-decoration: none;
+  border-bottom: #64A0C2 2px solid;
+ }
+
+  /* CATTRABAJOS */
+
+/* DISENIO WEB */
+.textoCard{
+  font-family: "TTCommonsDemi";
+  font-size: 35px;
+  color: #414141;
+}
+.infoCard{
+  font-family: "TTCommonsDemi";
+  font-size: 15px;
+  color: #414141;
+  float: left;
+}
+.cardImagen{
+  height: 10em;
+
+}
+
+.card-deck{
+  margin-left: auto;
+  margin-right: auto;
+}
+.diseño{
+  margin-right: 46px;
+  margin-left: 120px;
+
+}
+
+.block2{
+
+margin-top: 20px;
+}
+
+.tienda{
+  width: 346px;
+  margin-left: 50px;
+}
+
+/* DISENIO WEB */
+     
+      
+/*fyers*/  
+.medida{
+  width: 149px;
+  align-items: center;
+  margin-left: 35%;
+  margin-top: 5px;
+}
+
+
+.medida2{
+width: 289px;
+height: 330px;
+margin-left: 20%;
+margin-top: 5px;
+align-items: center;
+}
+
+
+.medida3{  
+  width: 389px;
+  height: 330px;
+  }
+/*fyers*/  
+
+/*publicidad*/
+.tituloPublicidad{
+  font-family: "TTCommonsDemi";
+  font-size: 55px;
+  color: white;
+}
+.tituloPublicidadMovil{
+  font-family: "TTCommonsDemi";
+  font-size: 30px;
+  color: white;
+}
+.linea1{
+  background-color: #414141;
+  height: 1em;
+  margin-top: 25px;
+}
+.linea2{
+  background-color: #414141;
+  height: 15px;
+  margin-top: 25px;
+}
+.promocional{
+height: 275px;
+width: 67px;
+}
+
+.flyersnegocios{
+  width: 265px;
+  margin-top: 12px;
+  margin-left: 90px;
+}
+
+
+
+/*publicidad*/
+
+
+/*curriculum*/
+.botones{
+ align-items: center;
+ margin-left: 845px;
+}
+.BotonDescargarCV{
+  background-color: white;
+  color:  #64A0C2;
+  font-family: "TTCommonsDemi";
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  height: 40px;
+  width: 130px;  
+}
+.BotonDescargarCV:hover{
+  background-color: #64A0C2;
+  color:  white;
+  font-family: "TTCommonsDemi";
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  height: 40px;
+  width: 130px;  
+}
+.BotonDescargarCV:focus{
+  outline: none;  
+}
+
+
+
+/* 
+.card-header-title{
+margin-top: -40px;
+color: white;
+font-family: "TTCommonsDemi";
+font-size: 30px;
+background-image: url(../recursos/img/flye-publicidad.jpg);
+} */
+
+
+@media (min-width: 768px) {
+  .carousel-multi-item-2 .col-md-3 {
+  float: left;
+  width: 25%;
+  max-width: 100%; } }
+  
+  .carousel-multi-item-2 .card img {
+  border-radius: 2px; }
+
+  /*Trabajos*/
+
+a:hover {
+    text-decoration: none;
+}
+.container-cat{
+    width: 90%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+}
+.item{
+    background-color:#FFF;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.095);
+    transition: all 300ms;
+    position: relative;
+    color: #000000;
+    font-family: 'Lucida Sans';
+}
+
+.item::after {
+    content: "";
+    background-color: rgba(179, 229, 252, .1);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    transform: scale(0);
+    transition: all 300ms;
+    opacity: 0;
+}
+
+.item:hover:after{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.item:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+.item-text{
+    padding: 1em;
+}
+
+.item-img{
+    max-width: 100%;
+    display: block;
+}
+
+@media screen and (min-width: 590px) {  
+    .container-cat{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .container-cat{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
