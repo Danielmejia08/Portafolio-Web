@@ -32,7 +32,7 @@ if (isset($_POST['enviar'])){
         $phone = $_POST['phone'];
         $message = $_POST['message'];
         $header = "From: raudamejia2014@hotmail.com". " \r\n";
-        $header.= "Replay to: davidmejia2006@hotmail.es". " \r\n";
+        $header.= $mail . " \r\n";
         $header.= "X-Mailer: PHP/" . phpversion();
         mail($mail, $asunto, $message, $header);
         if($mail){
