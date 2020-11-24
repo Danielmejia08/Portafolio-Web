@@ -31,8 +31,8 @@ if (isset($_POST['enviar'])){
         $mail = $_POST['mail'];
         $phone = $_POST['phone'];
         $message = $_POST['message'];
-        $header = $mail . " \r\n";
-        $header .= "From: raudamejia2014@hotmail.com". " \r\n";
+        $header  = "From: raudamejia2014@hotmail.com". " \r\n";
+        $header .= "Reply-to: raudamejia2014@hotmail.com". " \r\n";
         $header.= "X-Mailer: PHP/" . phpversion();
         mail($mail, $name, $message, $header);
         if($mail){
