@@ -1,10 +1,5 @@
 <?php
-// $destino = "salvadorcartajena@hotmail.com";
-// $email = $_POST["mail"];
-// $numero = $_POST["phone"];
-// $mensaje = $_POST["message"];
-// $contenido = "Nombre: " . $nombre . "\nCorreo: " . $email . "\nNúmero: " . $numero . "\nAsunto: " . $mensaje;
-// @mail($destino, "Contacto", $contenido);
+
 
 $name = $_POST['name'];
 $mail = $_POST['mail'];
