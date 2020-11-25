@@ -71,7 +71,7 @@
 </div>
 
 <div class="container">
-  <form action="correo.php" method="post">
+  <form action="enviar.php" method="post">
     <div class="container form-contacto mt-4 mb-4 col-lg-6">
       <div class="row">
         <div class="col-lg-12">
@@ -81,7 +81,7 @@
           <h1 class="textoDeForm">Nombre completo</h1>
           <input type="text" autocomplete="off" name="name" id="name" class="inputForm">
           <h1 class="textoDeForm">Email</h1>
-          <input type="text" autocomplete="off" name="email" id="email" class="inputForm">
+          <input type="text" autocomplete="off" name="mail" id="mail" class="inputForm">
           <h1 class="textoDeForm">Telefono</h1>
           <input type="text" autocomplete="off" name="phone" id="phone" class="inputForm">
         </div>
@@ -105,7 +105,7 @@
     </div>
   </form>
   <?php
-    include("correo.php")
+    include("enviar.php")
   ?>
 </div>
 
