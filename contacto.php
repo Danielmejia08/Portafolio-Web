@@ -81,7 +81,7 @@
           <h1 class="textoDeForm">Nombre completo</h1>
           <input type="text" autocomplete="off" name="name" id="name" class="inputForm">
           <h1 class="textoDeForm">Email</h1>
-          <input type="text" autocomplete="off" name="mail" id="mail" class="inputForm">
+          <input type="text" autocomplete="off" name="email" id="email" class="inputForm">
           <h1 class="textoDeForm">Telefono</h1>
           <input type="text" autocomplete="off" name="phone" id="phone" class="inputForm">
         </div>
@@ -99,7 +99,7 @@
           <button class="btnServicios">Otros</button>
         </div>
         <div class="col-lg-12 text-center mt-2 mb-3">
-          <button type="submit" name="enviar" id="enviar" class="btnSolicitar">Solicitar</button>
+          <button type="submit" name="enviar" class="btnSolicitar">Solicitar</button>
         </div>
       </div>
     </div>

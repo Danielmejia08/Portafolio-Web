@@ -1,9 +1,9 @@
 <?php
 
 if (isset($_POST['enviar'])){
-    if(!empty($_POST['name']) && !empty($_POST['mail']) && !empty($_POST['phone']) && !empty($_POST['message'])){
+    if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['phone']) && !empty($_POST['message'])){
         $name = $_POST['name'];
-        $email = $_POST['mail'];
+        $email = $_POST['email'];
         $phone = $_POST['phone'];
         $message = $_POST['message'];
         $header  = "From: guillermohdloco@gmail.com". "\r\n";
