@@ -10,6 +10,11 @@
   font-family: "TTCommonsRegular";
   src: url("../recursos/fonts/TTCommons-Regular.ttf");
 }
+
+@font-face {
+  font-family: "GloberDemo-SemiBold";
+  src: url("../recursos/fonts/GloberDemo-SemiBold");
+}
 @media all and (max-width: 1000px){
   img{
   width:180px;
@@ -62,7 +67,7 @@ body{
 .Info{
   font-family: "TTCommons";
   font-size: 30px;
-  color: #ADC2D8;
+  color: #414141;
   margin-top: 10%;
 }
 .infoBlanco{
@@ -79,11 +84,12 @@ body{
   
 }
 .Img-perfil{
-  margin-top: 20%;
+  margin-top: 15%;
 }
 .circular--square-pc{
   border-radius: 50%;
-  height: 8%;
+  height: 350px;
+  width: 300px;
 }
 .circular--square-movil{
   border-radius: 50%;
